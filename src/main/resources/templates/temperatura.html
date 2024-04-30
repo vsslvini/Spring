@@ -1,0 +1,14 @@
+<!DOCTYPE HTML> 
+<html xmlns:th="http://www.thymeleaf.org"> 
+    <head>  
+            <title>Conversor de temperatura</title>  
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    </head> 
+    <body> 
+            <h1 th:text="'Convertendo ' + ${celsius} + ' graus Celsius'"/> 
+            <ul> 
+                    <li th:text="${farenheit} + ' graus Farenheit'"/> 
+                    <li th:text="${kelvin} + ' graus Kelvin'"/> 
+                </ul> 
+    </body> 
+</html> 
